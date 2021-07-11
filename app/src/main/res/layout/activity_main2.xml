@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+<LinearLayout
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="150px"
+    >
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:src="@drawable/operation"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/tv_modify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="编辑"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/tv_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="留言"
+        android:textSize="35sp"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tv_query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="阅览"
+        android:textSize="35sp"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tv_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="退出"
+        android:textSize="35sp"
+        android:layout_gravity="center"/>
+</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/welcome"/>
+    </RelativeLayout>
+</RelativeLayout>
